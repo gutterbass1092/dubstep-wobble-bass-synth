@@ -1,0 +1,56 @@
+:root {
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  color: #eaf2f7;
+  background: radial-gradient(circle at top, #20344d 0%, #0b121c 65%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.app {
+  width: min(92vw, 520px);
+  padding: 2rem;
+  border-radius: 1rem;
+  background: rgba(10, 16, 26, 0.75);
+  border: 1px solid rgba(175, 224, 255, 0.25);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin: 0 0 0.6rem 0;
+  font-size: 1.7rem;
+}
+
+p {
+  margin: 0 0 1.2rem 0;
+  color: #b0c8d9;
+}
+
+button {
+  width: 120px;
+  margin-bottom: 1rem;
+  padding: 0.65rem 0.9rem;
+  border-radius: 0.6rem;
+  border: none;
+  background: linear-gradient(120deg, #15b6ff 0%, #6ed9ff 100%);
+  color: #05131e;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+input[type="range"] {
+  width: 100%;
+}
